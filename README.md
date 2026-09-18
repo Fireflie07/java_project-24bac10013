@@ -1,28 +1,33 @@
-# Smart Logistics Management System
+📌 Project Overview
+This repository contains the evaluated project for the Programming in Java course. It features a standalone, terminal-executable Smart Logistics Management System designed to record, categorize, compute shipment delivery fees, and persist package records locally. The project demonstrates core Object-Oriented Programming (OOP) concepts including Encapsulation, Abstraction, Inheritance, and Method Overriding, while maintaining zero external dependencies.
 
-**Student Name:** Elizabeth George  
-**Registration Number:** 24BAC10013  
-**Course:** Programming in Java  
+📂 Repository Structure
+src/: Contains the Java source code (SmartLogisticsSystem.java).
+bin/: Directory where compiled bytecodes are generated.
+README.md: Project documentation and execution guide (this file).
 
----
+🛠 System Features & Functionality
+This application was developed using JDK 17+ to demonstrate core Java competencies:
+- Object-Oriented Hierarchy: Uses an abstract Shipment base class with specialized ExpressShipment and CargoShipment subclasses.
+- Dynamic Cost Calculation: Calculates delivery fees on the fly based on weight, priority handling, and refrigeration requirements.
+- Local Data Persistence: Employs standard Java I/O streams (BufferedReader, PrintWriter) to read and write records to shipments_data.txt.
+- Interactive CLI: Provides a robust terminal menu with error handling for user inputs.
 
-## 📌 Project Overview
-The **Smart Logistics Management System** is a standalone, terminal-executable Java application designed to record, categorize, compute shipment delivery fees, and persist package records locally.
+🚀 How to Run
+Clone the repository:
+git clone https://github.com/ElizabethGeorge0013/java-project-24bac10013.git
+cd java-project-24bac10013
 
-### Key Features
-- **Object-Oriented Architecture:** Demonstrates core OOP principles including Encapsulation, Abstraction, Inheritance, and Method Overriding.
-- **Dynamic Cost Calculation:** Computes distinct pricing models for Express and Cargo shipments dynamically.
-- **File Persistence:** Uses standard Java I/O streams (`BufferedReader`, `PrintWriter`) to save and reload shipment details across sessions.
-- **CLI Navigation:** Interactive console menu running without external GUI dependencies.
+Compile Java Files:
+javac -d bin src/SmartLogisticsSystem.java
 
----
+Execute Application:
+java -cp bin SmartLogisticsSystem
 
-## 🚀 Execution Instructions
+⚖️ License
+This project is open-source and released under the MIT License.
 
-### Prerequisites
-- Java Development Kit (JDK 17 or higher) installed.
-
-### Step 1: Clone the Repository
-```bash
-git clone [https://github.com/ElizabethGeorge0013/BYOP-Project-24BAC10013.git](https://github.com/ElizabethGeorge0013/BYOP-Project-24BAC10013.git)
-cd BYOP-Project-24BAC10013
+👤 Author
+Name: Elizabeth Maria George
+Registration Number: 24BAC10013
+Course: Programming in Java
