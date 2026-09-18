@@ -15,7 +15,7 @@ This application was developed using JDK 17+ to demonstrate core Java competenci
 
 🚀 How to Run
 Clone the repository:
-git clone https://github.com/ElizabethGeorge0013/java-project-24bac10013.git
+git clone https://github.com/ElizabethGeorge0013/java_project-24bac10013.git
 cd java-project-24bac10013
 
 Compile Java Files:
