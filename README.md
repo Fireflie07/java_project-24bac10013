@@ -22,8 +22,5 @@ The **Smart Logistics Management System** is a standalone, terminal-executable J
 git clone [https://github.com/ElizabethGeorge0013/java-Project-24BAC10013.git](https://github.com/ElizabethGeorge0013/java-Project-24BAC10013.git)
 cd java-Project-24BAC10013
 
-**Name: Elizabeth George** 
-**Registration Number:24BAC10013**  
-**Course: Programming in Java**  
 
 ---
