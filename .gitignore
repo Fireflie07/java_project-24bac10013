@@ -1,0 +1,14 @@
+# Compiled Java class files
+*.class
+bin/
+
+# Persistent data file generated at runtime
+shipments_data.txt
+
+# IDE metadata files
+.idea/
+*.iml
+.settings/
+.project/
+.classpath/
+.DS_Store
